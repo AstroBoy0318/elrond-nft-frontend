@@ -9,6 +9,7 @@ import {
   Menu,
   Position,
   Strong,
+  Text,
 } from 'evergreen-ui';
 import { useMediaQuery } from 'react-responsive';
 import { shortenWalletAddress } from '../utils';
@@ -39,7 +40,7 @@ const MainLayout: React.FC = ({ children }) => {
   return (
     <Pane>
       <Dapp.Authenticate routes={routes} unlockRoute="/unlock">
-        <Pane background="white" marginBottom={30} border="default">
+        <Pane background="transparent" marginBottom={30} border="none">
           <Pane
             maxWidth={1200}
             paddingX={30}
@@ -57,24 +58,27 @@ const MainLayout: React.FC = ({ children }) => {
                 cursor="pointer"
                 display="flex"
                 alignItems="center"
+                color="white"
               >
                 NFT
               </Heading>
               {!smallRes && (
                 <StatusIndicator color="success" marginLeft={20}>
-                  {getChainName(chainId.valueOf() as ChainID)}
+                  <Text color="white">
+                    {getChainName(chainId.valueOf() as ChainID)}
+                  </Text>
                 </StatusIndicator>
               )}
             </Pane>
             {address ? (
               <Pane display="flex" alignItems="center">
-                <Heading
+                {/* <Heading
                   onClick={() => history.push('/dashboard')}
                   cursor="pointer"
                   marginRight={15}
                 >
                   Dashboard
-                </Heading>
+                </Heading> */}
                 <Popover
                   position={Position.BOTTOM_RIGHT}
                   content={
@@ -90,7 +94,7 @@ const MainLayout: React.FC = ({ children }) => {
                     title={address}
                     cursor="pointer"
                   >
-                    {shortenWalletAddress(address)}
+                    <Text color="white">{shortenWalletAddress(address)}</Text>
                   </StatusIndicator>
                 </Popover>
               </Pane>
@@ -99,6 +103,7 @@ const MainLayout: React.FC = ({ children }) => {
                 <Strong
                   onClick={() => history.push('/unlock')}
                   cursor="pointer"
+                  color="white"
                 >
                   Login
                 </Strong>
@@ -114,6 +119,20 @@ const MainLayout: React.FC = ({ children }) => {
           paddingBottom={40}
         >
           {children}
+        </Pane>
+        <Pane
+          background="#3e0744"
+          borderTop="1px solid #881a92"
+          paddingY={30}
+          paddingX={10}
+          display="flex"
+          justifyContent="space-between"
+        >
+          <Pane>icons</Pane>
+          <Text color="white" fontSize="2em" fontWeight="bold">
+            NFT Minting
+          </Text>
+          <Text color="white">© 2021 TheKittyButts LLC</Text>
         </Pane>
       </Dapp.Authenticate>
     </Pane>

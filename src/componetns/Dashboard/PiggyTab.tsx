@@ -6,7 +6,7 @@ import { PiggyBankLS } from '../../types';
 import * as transactions from '../../transactions';
 import CreatePiggyForm from './CreatePiggyForm';
 import AddAmountForm from './AddAmountForm';
-import { createPiggy } from '../../transactions';
+// import { createPiggy } from '../../transactions';
 
 interface PiggyTabProps {
   piggy: PiggyBankLS;
@@ -18,10 +18,10 @@ const PiggyTab: React.FC<PiggyTabProps> = ({ piggy }) => {
   const sendTransaction = Dapp.useSendTransaction();
 
   const createPiggyHandler = () => {
-    sendTransaction({
+    /* sendTransaction({
       transaction: createPiggy(),
       callbackRoute: '/dashboard',
-    });
+    }); */
   };
 
   const addAmountModalOpen = () => () => {

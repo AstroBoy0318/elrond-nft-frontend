@@ -9,7 +9,7 @@ const Unlock = () => {
         display="flex"
         alignItems="center"
         justifyContent="center"
-        marginTop="20vh"
+        height="calc(91vh - 64px)"
       >
         <Pane
           backgroundColor="white"
@@ -19,7 +19,7 @@ const Unlock = () => {
           padding={30}
         >
           <Dapp.Pages.Unlock
-            callbackRoute="/dashboard1"
+            callbackRoute="/"
             lead="Please select your login method:"
             ledgerRoute="/ledger"
             walletConnectRoute="/walletconnect"
