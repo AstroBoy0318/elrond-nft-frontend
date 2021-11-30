@@ -15,6 +15,8 @@ import { useMediaQuery } from 'react-responsive';
 import { shortenWalletAddress } from '../utils';
 import { routes } from '../routes';
 import { ChainID } from '../types';
+import SocialLink from './SocialLink';
+import { siteName } from '../config';
 
 const MainLayout: React.FC = ({ children }) => {
   const { address, chainId } = Dapp.useContext();
@@ -60,7 +62,7 @@ const MainLayout: React.FC = ({ children }) => {
                 alignItems="center"
                 color="white"
               >
-                NFT
+                {siteName}
               </Heading>
               {!smallRes && (
                 <StatusIndicator color="success" marginLeft={20}>
@@ -128,11 +130,15 @@ const MainLayout: React.FC = ({ children }) => {
           display="flex"
           justifyContent="space-between"
         >
-          <Pane>icons</Pane>
+          <Pane width={180}>
+            <SocialLink />
+          </Pane>
           <Text color="white" fontSize="2em" fontWeight="bold">
-            NFT Minting
+            {siteName}
           </Text>
-          <Text color="white">© 2021 TheKittyButts LLC</Text>
+          <Pane width={180}>
+            <Text color="white">© 2021 TheKittyButts LLC</Text>
+          </Pane>
         </Pane>
       </Dapp.Authenticate>
     </Pane>

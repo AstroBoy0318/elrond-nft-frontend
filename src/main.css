@@ -244,3 +244,11 @@ body {
 
 
 /* elrond dapp tools overwrites end */
+
+.road-map-date {
+    position: absolute;
+    top: -2.2em;
+    color: white;
+    font-size: 1.5em !important;
+    font-weight: bold !important;
+}

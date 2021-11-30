@@ -20,3 +20,5 @@ export const nftmintScAddress = process.env.REACT_APP_NFTMINT_SC_ADDRESS;
 
 export const minTime = 60000;
 export const mintPrice = 0.02;
+
+export const siteName = 'Angry Bully City';
