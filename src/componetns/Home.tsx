@@ -3,6 +3,7 @@ import MintPart from './MintPart';
 import SlidePart from './SlidePart';
 import Tokenomics from './Tokenomics';
 import RoadMap from './RoadMap';
+import Qa from './Qa';
 import { Pane, Paragraph, Text } from 'evergreen-ui';
 import { nftmintScAddress } from '../config';
 import { updateItem } from '../transactions';
@@ -67,6 +68,7 @@ const Home: React.FC = () => {
             </div>
           </Pane>
         </Pane> */}
+        <Qa />
         <Pane marginTop={50} textAlign="center">
           <Paragraph>
             <Text color="white" fontWeight="bold" fontSize="1.5em">

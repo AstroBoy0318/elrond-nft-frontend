@@ -252,3 +252,21 @@ body {
     font-size: 1.5em !important;
     font-weight: bold !important;
 }
+
+.collapsed-item {
+    color: white;
+}
+
+.collapsed-item .Collapsible__trigger {
+    border: 1px solid white;
+    display: block;
+    padding: 0.5em;
+}
+
+.collapsed-item .Collapsible__trigger.is-open svg {
+    transform: rotate(180deg);
+}
+
+.collapsed-item .Collapsible__contentOuter {
+    padding: 0.5em;
+}

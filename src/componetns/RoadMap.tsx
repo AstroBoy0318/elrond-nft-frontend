@@ -22,10 +22,10 @@ const RoadMap = () => {
             }}
           >
             <h3 className="vertical-timeline-element-title">
-              Creative Director
+              Release Firt Version
             </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-            <p>aaaaaaaaa</p>
+            <h4 className="vertical-timeline-element-subtitle">On Elrond</h4>
+            <p>NFT project was built</p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
             contentStyle={{ marginTop: '2em' }}
@@ -38,13 +38,11 @@ const RoadMap = () => {
               transform: 'scale(0.5)',
             }}
           >
-            <h3 className="vertical-timeline-element-title">Art Director</h3>
+            <h3 className="vertical-timeline-element-title">Publish</h3>
             <h4 className="vertical-timeline-element-subtitle">
-              San Francisco, CA
+              Publish on mainnet.
             </h4>
-            <p>
-              Creative Direction, User Experience, Visual Design, SEO, Online
-            </p>
+            <p>Published successfully.</p>
           </VerticalTimelineElement>
         </VerticalTimeline>
       </Pane>
