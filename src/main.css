@@ -245,12 +245,22 @@ body {
 
 /* elrond dapp tools overwrites end */
 
+.vertical-timeline-element-content {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.vertical-timeline::before {
+    background: white;
+}
+
 .road-map-date {
     position: absolute;
     top: -2.2em;
     color: white;
     font-size: 1.5em !important;
     font-weight: bold !important;
+    opacity: 1 !important;
 }
 
 .collapsed-item {
@@ -269,4 +279,29 @@ body {
 
 .collapsed-item .Collapsible__contentOuter {
     padding: 0.5em;
+}
+
+.background-image {
+    background-size: 100% 100%;
+}
+
+@media screen and (max-width: 1280px) {
+    .background-image {
+        background-size: auto 100%;
+    }
+}
+
+.legend {
+    display: none;
+}
+
+.tokenomics-text {
+    width: 80%;
+    min-width: 300px;
+}
+
+@media screen and (max-width: 690px) {
+    .tokenomics-text {
+        text-align: center;
+    }
 }

@@ -137,7 +137,7 @@ const MainLayout: React.FC = ({ children }) => {
             {siteName}
           </Text>
           <Pane width={180}>
-            <Text color="white">© 2021 TheKittyButts LLC</Text>
+            <Text color="white">© 2021 Angry Bullies</Text>
           </Pane>
         </Pane>
       </Dapp.Authenticate>

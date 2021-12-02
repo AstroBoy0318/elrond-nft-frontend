@@ -9,9 +9,15 @@ const Tokenomics = () => {
             Tokenomics
           </Text>
         </Paragraph>
-        <Pane marginTop={20} display="flex" justifyContent="start" gridGap={10}>
-          <img src="assets/1.jpg" width="80px" />
-          <div>
+        <Pane
+          marginTop={20}
+          display="flex"
+          justifyContent="center"
+          gridGap={10}
+          flexWrap="wrap"
+        >
+          <img src="assets/1.jpeg" width="100px" height="100px" />
+          <div className="tokenomics-text">
             <Paragraph>
               <Text color="white" fontWeight="bold" fontSize="1.5em">
                 8,888 Angry Bullies
@@ -25,17 +31,74 @@ const Tokenomics = () => {
             </Paragraph>
           </div>
         </Pane>
-        <Pane marginTop={10} display="flex" justifyContent="start" gridGap={10}>
-          <img src="assets/maiar.png" width="80px" />
-          <div>
+        <Pane
+          marginTop={10}
+          display="flex"
+          justifyContent="center"
+          gridGap={10}
+          flexWrap="wrap"
+        >
+          <img src="assets/maiar.png" width="100px" height="100px" />
+          <div className="tokenomics-text">
             <Paragraph>
               <Text color="white" fontWeight="bold" fontSize="1.5em">
-                0.5 Egold Presale Price
+                0.5 eGold Presale Price
               </Text>
             </Paragraph>
             <Paragraph>
               <Text color="white">
-                Angry Bullies are Mintable at 0.5 Egold (excluding Gas cost).
+                Angry Bullies are Mintable at 0.5 eGold (excluding Gas cost).
+              </Text>
+            </Paragraph>
+          </div>
+        </Pane>
+        <Pane
+          marginTop={10}
+          display="flex"
+          justifyContent="center"
+          gridGap={10}
+          flexWrap="wrap"
+        >
+          <img src="assets/ipfs.png" width="100px" height="100px" />
+          <div className="tokenomics-text">
+            <Paragraph>
+              <Text color="white" fontWeight="bold" fontSize="1.5em">
+                InterPlanetary File System
+              </Text>
+            </Paragraph>
+            <Paragraph>
+              <Text color="white">
+                The IPFS is a peer-to-peer network for storing and sharing data.
+                This means KittyButts are decentralised and not soley on any one
+                website or server.
+              </Text>
+            </Paragraph>
+          </div>
+        </Pane>
+        <Pane
+          marginTop={10}
+          display="flex"
+          justifyContent="center"
+          gridGap={10}
+          flexWrap="wrap"
+        >
+          <img src="assets/onchain.svg" width="100px" height="100px" />
+          <div className="tokenomics-text">
+            <Paragraph>
+              <Text color="white" fontWeight="bold" fontSize="1.5em">
+                On-Chain Randomised Starting Index
+              </Text>
+            </Paragraph>
+            <Paragraph>
+              <Text color="white">
+                Using a Starting Index, similar to note-worthy NFT collections
+                such as The Hashmasks, we can ensure KittyButts are minted
+                fairly.
+              </Text>
+            </Paragraph>
+            <Paragraph>
+              <Text color="white">
+                No-one knows what KittyButt will be minted, not even us..
               </Text>
             </Paragraph>
           </div>

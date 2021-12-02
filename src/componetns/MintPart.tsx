@@ -30,6 +30,7 @@ const MintPart = () => {
         <Text
           fontWeight="bold"
           fontSize="3em"
+          lineHeight="1em"
           color="white"
           textShadow="0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92"
         >
@@ -102,7 +103,7 @@ const MintPart = () => {
           marginTop={10}
           textShadow="0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92"
         >
-          0.5 Eglod
+          0.5 eGold
         </Text>
       </Pane>
       <Pane
@@ -126,18 +127,18 @@ const MintPart = () => {
           marginTop={10}
           textShadow="0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92"
         >
-          December 01
+          December 09
         </Text>
       </Pane>
       <Paragraph marginTop={50} textAlign="center">
         <Button
           disabled={!address}
-          appearance="primary"
           size="large"
           transform="scale(1.5)"
           onClick={buyNFTHandler}
+          background="#1c0414"
         >
-          Buy a nft item
+          Mint
         </Button>
         <Button
           display="none"

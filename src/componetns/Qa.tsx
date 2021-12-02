@@ -131,7 +131,7 @@ const Qa = () => {
           <p>12/21 starting at 6 pm EST</p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>13. Main Sale Bullys NFTs Available?</Tigger>}
+          trigger={<Tigger>13. Main Sale Bullies NFTs Available?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
@@ -164,17 +164,17 @@ const Qa = () => {
           <p>Min. 1 to 10 Max</p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>17. Where can I view my Bullys?</Tigger>}
+          trigger={<Tigger>17. Where can I view my Bullies?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
           <p>
             We use Elrond Web wallet or Maiar mobile; or show them off in the"
-            show your bullys " channel.
+            show your bullies " channel.
           </p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>18. Do the Bullys reveal right away?</Tigger>}
+          trigger={<Tigger>18. Do the Bullies reveal right away?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >

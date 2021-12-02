@@ -4,6 +4,7 @@ import SlidePart from './SlidePart';
 import Tokenomics from './Tokenomics';
 import RoadMap from './RoadMap';
 import Qa from './Qa';
+import Team from './Team';
 import { Pane, Paragraph, Text } from 'evergreen-ui';
 import { nftmintScAddress } from '../config';
 import { updateItem } from '../transactions';
@@ -69,6 +70,7 @@ const Home: React.FC = () => {
           </Pane>
         </Pane> */}
         <Qa />
+        <Team />
         <Pane marginTop={50} textAlign="center">
           <Paragraph>
             <Text color="white" fontWeight="bold" fontSize="1.5em">
@@ -76,7 +78,9 @@ const Home: React.FC = () => {
             </Text>
           </Paragraph>
           <Paragraph>
-            <Text color="white">{nftmintScAddress}</Text>
+            <Text color="white" wordBreak="break-all">
+              {nftmintScAddress}
+            </Text>
           </Paragraph>
         </Pane>
       </Pane>

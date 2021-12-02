@@ -20,43 +20,54 @@ const SlidePart = () => {
           infiniteLoop={true}
           centerMode={true}
           showThumbs={false}
+          showArrows={false}
+          showStatus={false}
+          showIndicators={false}
           centerSlidePercentage={33.33}
         >
           <div>
-            <img src="assets/1.jpg" />
-            <p className="legend">Cat 1</p>
+            <img src="assets/1.jpeg" />
+            <p className="legend">Bully 1</p>
           </div>
           <div>
-            <img src="assets/2.jpg" />
-            <p className="legend">Cat 2</p>
+            <img src="assets/2.png" />
+            <p className="legend">Bully 2</p>
           </div>
           <div>
-            <img src="assets/3.jpg" />
-            <p className="legend">Cat 3</p>
+            <img src="assets/3.jpeg" />
+            <p className="legend">Bully 3</p>
           </div>
           <div>
-            <img src="assets/1.jpg" />
-            <p className="legend">Cat 4</p>
+            <img src="assets/4.png" />
+            <p className="legend">Bully 4</p>
           </div>
           <div>
-            <img src="assets/2.jpg" />
-            <p className="legend">Cat 5</p>
+            <img src="assets/5.png" />
+            <p className="legend">Bully 5</p>
           </div>
           <div>
-            <img src="assets/3.jpg" />
-            <p className="legend">Cat 6</p>
+            <img src="assets/6.png" />
+            <p className="legend">Bully 6</p>
           </div>
           <div>
-            <img src="assets/1.jpg" />
-            <p className="legend">Cat 7</p>
+            <img src="assets/7.png" />
+            <p className="legend">Bully 7</p>
           </div>
           <div>
-            <img src="assets/2.jpg" />
+            <img src="assets/8.png" />
             <p className="legend">Cat 8</p>
           </div>
           <div>
-            <img src="assets/3.jpg" />
-            <p className="legend">Cat 9</p>
+            <img src="assets/9.jpeg" />
+            <p className="legend">Bully 9</p>
+          </div>
+          <div>
+            <img src="assets/10.png" />
+            <p className="legend">Bully 10</p>
+          </div>
+          <div>
+            <img src="assets/11.jpeg" />
+            <p className="legend">Bully 11</p>
           </div>
         </Carousel>
       </Paragraph>
