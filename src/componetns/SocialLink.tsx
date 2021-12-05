@@ -17,7 +17,11 @@ const SocialLink = () => {
       >
         <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" color="white" />
       </Link>
-      <Link href="https://discord.gg/YE4CQVYk" target="_blank" rel="noreferrer">
+      <Link
+        href="https://discord.gg/vP4HD6yaUt"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FontAwesomeIcon icon={['fab', 'discord']} size="2x" color="white" />
       </Link>
     </Pane>

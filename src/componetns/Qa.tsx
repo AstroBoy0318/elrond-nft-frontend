@@ -9,7 +9,9 @@ library.add(faAngleDown);
 const Tigger: React.FC = ({ children }) => {
   return (
     <Pane display="flex" justifyContent="space-between">
-      <Text color="white">{children}</Text>
+      <Text color="white" fontSize="16px" fontWeight="bold">
+        {children}
+      </Text>
       <FontAwesomeIcon icon={'angle-down'} color="white" />
     </Pane>
   );
@@ -59,7 +61,7 @@ const Qa = () => {
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>12:00 hrs UTC, Dec 09</p>
+          <p>December 20th, 2021</p>
         </Collapsible>
         <Collapsible
           trigger={<Tigger>5. When does the whitelist close?</Tigger>}
@@ -73,12 +75,12 @@ const Qa = () => {
         </Collapsible>
         <Collapsible
           trigger={
-            <Tigger>6. How many NFTs allowed reserved per person?</Tigger>
+            <Tigger>6. How many nfts can be reserved per person?</Tigger>
           }
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>Minimum 1; Maximum 15</p>
+          <p>Minimum 1; Maximum 12</p>
         </Collapsible>
         <Collapsible
           trigger={
@@ -99,7 +101,7 @@ const Qa = () => {
         >
           <p>0.5 EGLD</p>
         </Collapsible>
-        <Collapsible
+        {/* <Collapsible
           trigger={<Tigger>9. Public Pre Sale Mint Date?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
@@ -122,27 +124,27 @@ const Qa = () => {
           openedClassName="collapsed-item"
         >
           <p>0.5 EGLD</p>
-        </Collapsible>
+        </Collapsible> */}
         <Collapsible
-          trigger={<Tigger>12. Main Sale Mint Date?</Tigger>}
+          trigger={<Tigger>9. Main Sale Mint Date?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
           <p>12/21 starting at 6 pm EST</p>
         </Collapsible>
-        <Collapsible
+        {/* <Collapsible
           trigger={<Tigger>13. Main Sale Bullies NFTs Available?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
           <p>7777 Bully NFTs will available</p>
-        </Collapsible>
+        </Collapsible> */}
         <Collapsible
-          trigger={<Tigger>14. Mint price?</Tigger>}
+          trigger={<Tigger>10. Mint price?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>1.0 EGLD</p>
+          <p>0.5 EGLD</p>
         </Collapsible>
         <Pane marginBottom={10}>
           <Text fontWeight="bold" fontSize="1.2em" color="white">
@@ -150,21 +152,21 @@ const Qa = () => {
           </Text>
         </Pane>
         <Collapsible
-          trigger={<Tigger>15. Where can I mint this on launch?</Tigger>}
+          trigger={<Tigger>11. Where can I mint this on launch?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
           <p>angrybullycity.com</p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>16. How many can I mint?</Tigger>}
+          trigger={<Tigger>12. How many can I mint?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>Min. 1 to 10 Max</p>
+          <p>Should be 1 to 12</p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>17. Where can I view my Bullies?</Tigger>}
+          trigger={<Tigger>13. Where can I view my Bullies?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
@@ -174,21 +176,21 @@ const Qa = () => {
           </p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>18. Do the Bullies reveal right away?</Tigger>}
+          trigger={<Tigger>14. Do the Bullies reveal right away?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
           <p>Yes they do</p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>19. Where can we see rarity?</Tigger>}
+          trigger={<Tigger>15. Where can we see rarity?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
           <p>Rarity Tools</p>
         </Collapsible>
         <Collapsible
-          trigger={<Tigger>20. Will this be on opensea?</Tigger>}
+          trigger={<Tigger>16. Will this be on opensea?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >

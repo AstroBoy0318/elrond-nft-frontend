@@ -42,9 +42,9 @@ const MainLayout: React.FC = ({ children }) => {
   return (
     <Pane>
       <Dapp.Authenticate routes={routes} unlockRoute="/unlock">
-        <Pane background="transparent" marginBottom={30} border="none">
+        <Pane background="transparent" marginBottom={0} border="none">
           <Pane
-            maxWidth={1200}
+            maxWidth={1280}
             paddingX={30}
             marginX="auto"
             width="100%"
@@ -114,7 +114,7 @@ const MainLayout: React.FC = ({ children }) => {
           </Pane>
         </Pane>
         <Pane
-          maxWidth={1200}
+          maxWidth={1280}
           paddingX={30}
           marginX="auto"
           width="100%"
@@ -127,17 +127,27 @@ const MainLayout: React.FC = ({ children }) => {
           borderTop="1px solid #881a92"
           paddingY={30}
           paddingX={10}
-          display="flex"
-          justifyContent="space-between"
         >
-          <Pane width={180}>
-            <SocialLink />
+          <Pane textAlign="center" className="bottom-title-mobile">
+            <Text color="white" fontSize="2em" fontWeight="bold">
+              {siteName}
+            </Text>
           </Pane>
-          <Text color="white" fontSize="2em" fontWeight="bold">
-            {siteName}
-          </Text>
-          <Pane width={180}>
-            <Text color="white">© 2021 Angry Bullies</Text>
+          <Pane display="flex" justifyContent="space-between">
+            <Pane width={180}>
+              <SocialLink />
+            </Pane>
+            <Text
+              color="white"
+              fontSize="2em"
+              fontWeight="bold"
+              className="bottom-title-desktop"
+            >
+              {siteName}
+            </Text>
+            <Pane width={180} textAlign="right" marginRight={10}>
+              <Text color="white">© 2021 Angry Bullies</Text>
+            </Pane>
           </Pane>
         </Pane>
       </Dapp.Authenticate>

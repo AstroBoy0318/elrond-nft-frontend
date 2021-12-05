@@ -34,18 +34,13 @@ const RoadMap = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Creation of The NFT Project/Community
             </h4>
-            <p>
-              During this phase, we will be giving away exclusive bully art from
-              the collection, while maintaining a strong focus on the growth{' '}
-              {'&'} development of our community.
-            </p>
             <ul>
               <li>
                 Release the pre-sale of our Angry Bully Collection to first 1000
                 early adopter (Dec 9th, 2021)
               </li>
               <li>Airdrop 50 early minters a rare bully NFT</li>
-              <li>Giveaway .5 EGOLD to 5 bully holders</li>
+              <li>Giveaway .5 EGLD to 5 bully holders</li>
               <li>
                 Integrate the Angry Bully Collection to the Emoon marketplace
               </li>
@@ -76,11 +71,6 @@ const RoadMap = () => {
             <h4 className="vertical-timeline-element-subtitle">
               Progressive Steps Forward
             </h4>
-            <p>
-              During this phase, we will be focused on building the foundation
-              for our metaverse and continue to provide value to our holders by
-              using our established network and partnerships.
-            </p>
             <ul>
               <li>Develop rarity by using RarityTools and similar platforms</li>
               <li>Dog Park metaverse design {'&'} release date announced</li>
@@ -88,7 +78,7 @@ const RoadMap = () => {
                 Purchase plots of land within the metaverse to create an
                 accessible place for holders
               </li>
-              <li>Massive .5 ETH giveaway to five (5) bully holders</li>
+              <li>Massive .2 ETH giveaway to five (5) bully holders</li>
               <li>
                 Dog Show Contest (Winner will receive two (2) round trip tickets
                 to their city of choice)
@@ -126,7 +116,7 @@ const RoadMap = () => {
             </h4>
             <ul>
               <li>
-                Donate 2.5 EGOLD to an animal shelter of the community’s choice
+                Donate 2.5 EGLD to an animal shelter of the community’s choice
               </li>
               <li>
                 Partnership with a major dog breeder to giveaway two (2)

@@ -4,8 +4,8 @@ const Team = () => {
   return (
     <Pane paddingBottom={30} paddingTop={30} borderBottom="1px solid #891a92">
       <Paragraph textAlign="center" marginBottom={20}>
-        <Text fontSize="1.5em" color="white">
-          Team members
+        <Text fontSize="1.5em" color="white" fontWeight="bold">
+          TEAM MEMBERS
         </Text>
       </Paragraph>
       <Pane display="flex" flexWrap="wrap" justifyContent="space-around">

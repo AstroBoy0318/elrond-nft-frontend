@@ -22,3 +22,5 @@ export const minTime = 60000;
 export const mintPrice = 0.02;
 
 export const siteName = 'Angry Bully City';
+
+export const mainLaunchDate = new Date('2022-01-01');

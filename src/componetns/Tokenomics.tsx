@@ -6,14 +6,43 @@ const Tokenomics = () => {
       <Pane marginTop={50} maxWidth={800} marginLeft="auto" marginRight="auto">
         <Paragraph textAlign="center">
           <Text fontWeight="bold" fontSize="2.5em" color="white">
-            Tokenomics
+            TOKENOMICS
           </Text>
         </Paragraph>
         <Pane
-          marginTop={20}
+          marginTop={50}
           display="flex"
           justifyContent="center"
-          gridGap={10}
+          gridGap={30}
+          flexWrap="wrap"
+        >
+          <img
+            src="assets/elrond.png"
+            width="100px"
+            height="100px"
+            style={{ filter: 'brightness(1000%)' }}
+          />
+          <div className="tokenomics-text">
+            <Paragraph>
+              <Text color="white" fontWeight="bold" fontSize="1.5em">
+                Elrond Smart Contract
+              </Text>
+            </Paragraph>
+            <Paragraph>
+              <Text color="white">
+                Built on the Elrond Network, the Angry Bullies can be owned by
+                anyone with a Maiar or Elrond Wallet address Angry Bullies are
+                fully transferable to other networks and tradable on platforms
+                such as Emoon, Areovek {'&'} Erdsea.
+              </Text>
+            </Paragraph>
+          </div>
+        </Pane>
+        <Pane
+          marginTop={50}
+          display="flex"
+          justifyContent="center"
+          gridGap={30}
           flexWrap="wrap"
         >
           <img src="assets/1.jpeg" width="100px" height="100px" />
@@ -25,38 +54,42 @@ const Tokenomics = () => {
             </Paragraph>
             <Paragraph>
               <Text color="white">
-                With over 15 different furs, 20 expressions and 100 accessories,
-                the possibilities for your bully are endless!!
+                {/* With over 15 different furs, 20 expressions and 100 accessories,
+                the possibilities for your bully are endless!! 111 Bullies will
+                be boxed for the core team. */}
+                111 will be boxed for the core team to support our giveaways and
+                promotional campaigns.
               </Text>
             </Paragraph>
           </div>
         </Pane>
         <Pane
-          marginTop={10}
+          marginTop={50}
           display="flex"
           justifyContent="center"
-          gridGap={10}
+          gridGap={30}
           flexWrap="wrap"
         >
           <img src="assets/maiar.png" width="100px" height="100px" />
           <div className="tokenomics-text">
             <Paragraph>
               <Text color="white" fontWeight="bold" fontSize="1.5em">
-                0.5 eGold Presale Price
+                0.5 EGLD Presale Price
               </Text>
             </Paragraph>
             <Paragraph>
               <Text color="white">
-                Angry Bullies are Mintable at 0.5 eGold (excluding Gas cost).
+                Angry Bullies are a Mintable at 0.5 EGLD (excluding Gas Cost)
+                starting December 20th 2021. You can mint 12 per transaction.
               </Text>
             </Paragraph>
           </div>
         </Pane>
         <Pane
-          marginTop={10}
+          marginTop={50}
           display="flex"
           justifyContent="center"
-          gridGap={10}
+          gridGap={30}
           flexWrap="wrap"
         >
           <img src="assets/ipfs.png" width="100px" height="100px" />
@@ -68,18 +101,18 @@ const Tokenomics = () => {
             </Paragraph>
             <Paragraph>
               <Text color="white">
-                The IPFS is a peer-to-peer network for storing and sharing data.
-                This means KittyButts are decentralised and not soley on any one
-                website or server.
+                The IPFS is a peer-to-peer network for storing and sharing data
+                .This means Angry Bullies are decentralised and not soley on any
+                one website or server.
               </Text>
             </Paragraph>
           </div>
         </Pane>
         <Pane
-          marginTop={10}
+          marginTop={50}
           display="flex"
           justifyContent="center"
-          gridGap={10}
+          gridGap={30}
           flexWrap="wrap"
         >
           <img src="assets/onchain.svg" width="100px" height="100px" />
@@ -92,13 +125,13 @@ const Tokenomics = () => {
             <Paragraph>
               <Text color="white">
                 Using a Starting Index, similar to note-worthy NFT collections
-                such as The Hashmasks, we can ensure KittyButts are minted
+                such as The Hashmasks, we can ensure Angry Bullies are minted
                 fairly.
               </Text>
             </Paragraph>
             <Paragraph>
               <Text color="white">
-                No-one knows what KittyButt will be minted, not even us..
+                No-one knows what Angry Bully will be minted, not even us..
               </Text>
             </Paragraph>
           </div>

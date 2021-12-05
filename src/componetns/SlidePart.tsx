@@ -1,13 +1,19 @@
 import { Pane, Paragraph, Text } from 'evergreen-ui';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import { siteName } from '../config';
 
 const SlidePart = () => {
   return (
     <Pane>
       <Paragraph marginTop={50} textAlign="center">
-        <Text fontWeight="bold" color="#fff" fontSize="2em">
-          Welcome to NFT Minting
+        <Text
+          fontWeight="bold"
+          color="#fff"
+          fontSize="2em"
+          textShadow="0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92"
+        >
+          Welcome {siteName}
         </Text>
       </Paragraph>
       <Paragraph
