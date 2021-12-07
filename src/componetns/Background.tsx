@@ -9,7 +9,7 @@ const Background = () => {
       height="calc(100% + 94px)"
       background="url(images/cover.jpeg)"
       backgroundRepeat="no-repeat"
-      backgroundPosition="center"
+      backgroundPosition="top center"
       opacity="0.3"
       position="absolute"
       left="calc(50% - 50vw)"

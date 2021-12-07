@@ -145,7 +145,7 @@ const MintPart = () => {
           marginTop={10}
           textShadow="0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92"
         >
-          0.5 EGLD
+          1 EGLD
         </Text>
       </Pane>
       <Pane

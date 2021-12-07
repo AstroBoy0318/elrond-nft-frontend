@@ -13,7 +13,7 @@ const SlidePart = () => {
           fontSize="2em"
           textShadow="0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92,0 0 3px #891a92"
         >
-          Welcome {siteName}
+          Welcome to {siteName}
         </Text>
       </Paragraph>
       <Paragraph
@@ -30,6 +30,8 @@ const SlidePart = () => {
           showStatus={false}
           showIndicators={false}
           centerSlidePercentage={33.33}
+          interval={500}
+          stopOnHover={false}
         >
           <div>
             <img src="assets/1.jpeg" />

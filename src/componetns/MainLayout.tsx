@@ -61,8 +61,13 @@ const MainLayout: React.FC = ({ children }) => {
                 display="flex"
                 alignItems="center"
                 color="white"
+                paddingTop={20}
               >
-                {siteName}
+                <img
+                  src="images/logo.png"
+                  height={80}
+                  style={{ opacity: '0.5' }}
+                />
               </Heading>
               {!smallRes && (
                 <StatusIndicator color="success" marginLeft={20}>

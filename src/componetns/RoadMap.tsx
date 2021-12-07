@@ -37,14 +37,14 @@ const RoadMap = () => {
             <ul>
               <li>
                 Release the pre-sale of our Angry Bully Collection to first 1000
-                early adopter (Dec 9th, 2021)
+                early adopter (Dec 20th, 2021)
               </li>
               <li>Airdrop 50 early minters a rare bully NFT</li>
               <li>Giveaway .5 EGLD to 5 bully holders</li>
               <li>
                 Integrate the Angry Bully Collection to the Emoon marketplace
               </li>
-              <li>Release Official Angry Bully Collection (Dec 21th, 2021)</li>
+              <li>Release Official Angry Bully Collection (Jan 1st, 2022)</li>
             </ul>
           </VerticalTimelineElement>
           <VerticalTimelineElement

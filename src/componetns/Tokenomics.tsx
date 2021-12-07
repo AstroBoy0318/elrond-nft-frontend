@@ -31,7 +31,7 @@ const Tokenomics = () => {
             <Paragraph>
               <Text color="white">
                 Built on the Elrond Network, the Angry Bullies can be owned by
-                anyone with a Maiar or Elrond Wallet address Angry Bullies are
+                anyone with a Maiar or Elrond Wallet address. Angry Bullies are
                 fully transferable to other networks and tradable on platforms
                 such as Emoon, Areovek {'&'} Erdsea.
               </Text>
@@ -57,8 +57,10 @@ const Tokenomics = () => {
                 {/* With over 15 different furs, 20 expressions and 100 accessories,
                 the possibilities for your bully are endless!! 111 Bullies will
                 be boxed for the core team. */}
-                111 will be boxed for the core team to support our giveaways and
-                promotional campaigns.
+                With over 15 different furs, 100 accessories and 20 expressions,
+                the possibilities for your bully are endless!! 111 Bullies will
+                be boxed for the core team to support giveaways and promotional
+                campaigns.
               </Text>
             </Paragraph>
           </div>

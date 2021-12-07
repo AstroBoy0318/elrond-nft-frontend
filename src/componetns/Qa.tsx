@@ -23,7 +23,7 @@ const Qa = () => {
       <Pane maxWidth={800} marginX="auto">
         <Pane marginBottom={20}>
           <Text fontWeight="bold" fontSize="2em" color="white">
-            FREQUENTLY ASKED QUESTIONS ( FAQ )
+            FREQUENTLY ASKED QUESTIONS (FAQ)
           </Text>
         </Pane>
         <Pane marginBottom={10}>
@@ -69,8 +69,8 @@ const Qa = () => {
           openedClassName="collapsed-item"
         >
           <p>
-            12:00 hrs UTC, Dec 15, or when all the spots are filled (whichever
-            comes first).
+            12:00hrs UTC December 31st, 2021, or when all the spots are filled
+            (whichever comes first).
           </p>
         </Collapsible>
         <Collapsible
@@ -130,7 +130,7 @@ const Qa = () => {
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>12/21 starting at 6 pm EST</p>
+          <p>January 1st 2022</p>
         </Collapsible>
         {/* <Collapsible
           trigger={<Tigger>13. Main Sale Bullies NFTs Available?</Tigger>}
@@ -144,7 +144,7 @@ const Qa = () => {
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>0.5 EGLD</p>
+          <p>1 EGLD</p>
         </Collapsible>
         <Pane marginBottom={10}>
           <Text fontWeight="bold" fontSize="1.2em" color="white">
@@ -156,14 +156,14 @@ const Qa = () => {
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>angrybullycity.com</p>
+          <p>Angrybully.city</p>
         </Collapsible>
         <Collapsible
           trigger={<Tigger>12. How many can I mint?</Tigger>}
           className="collapsed-item"
           openedClassName="collapsed-item"
         >
-          <p>Should be 1 to 12</p>
+          <p>1 to 12</p>
         </Collapsible>
         <Collapsible
           trigger={<Tigger>13. Where can I view my Bullies?</Tigger>}
@@ -171,8 +171,8 @@ const Qa = () => {
           openedClassName="collapsed-item"
         >
           <p>
-            We use Elrond Web wallet or Maiar mobile; or show them off in the"
-            show your bullies " channel.
+            We use Elrond Web wallet or Maiar mobile; or show them off in the
+            “show your bullies” channel.
           </p>
         </Collapsible>
         <Collapsible
