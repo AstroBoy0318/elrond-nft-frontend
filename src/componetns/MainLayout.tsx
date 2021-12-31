@@ -112,7 +112,7 @@ const MainLayout: React.FC = ({ children }) => {
                   cursor="pointer"
                   color="white"
                 >
-                  Login
+                  Connect Wallet
                 </Strong>
               </Pane>
             )}

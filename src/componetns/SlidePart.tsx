@@ -1,7 +1,29 @@
 import { Pane, Paragraph, Text } from 'evergreen-ui';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+// import { Carousel } from 'react-responsive-carousel';
+// import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
 import { siteName } from '../config';
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 3,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 2,
+  },
+};
 
 const SlidePart = () => {
   return (
@@ -20,63 +42,41 @@ const SlidePart = () => {
         marginTop={30}
         paddingBottom={30}
         borderBottom="1px solid #891a92"
+        style={{ position: 'relative' }}
       >
+        <div
+          style={{
+            position: `absolute`,
+            left: 0,
+            top: 0,
+            width: `100%`,
+            height: `100%`,
+            background: `transparent`,
+            zIndex: 1,
+          }}
+        ></div>
         <Carousel
+          draggable={false}
+          swipeable={false}
+          responsive={responsive}
+          infinite={true}
           autoPlay={true}
-          infiniteLoop={true}
-          centerMode={true}
-          showThumbs={false}
-          showArrows={false}
-          showStatus={false}
-          showIndicators={false}
-          centerSlidePercentage={33.33}
-          interval={500}
-          stopOnHover={false}
+          autoPlaySpeed={1000}
+          transitionDuration={500}
+          arrows={false}
+          containerClass="carousel-container"
         >
-          <div>
-            <img src="assets/1.jpeg" />
-            <p className="legend">Bully 1</p>
-          </div>
-          <div>
-            <img src="assets/2.png" />
-            <p className="legend">Bully 2</p>
-          </div>
-          <div>
-            <img src="assets/3.jpeg" />
-            <p className="legend">Bully 3</p>
-          </div>
-          <div>
-            <img src="assets/4.png" />
-            <p className="legend">Bully 4</p>
-          </div>
-          <div>
-            <img src="assets/5.png" />
-            <p className="legend">Bully 5</p>
-          </div>
-          <div>
-            <img src="assets/6.png" />
-            <p className="legend">Bully 6</p>
-          </div>
-          <div>
-            <img src="assets/7.png" />
-            <p className="legend">Bully 7</p>
-          </div>
-          <div>
-            <img src="assets/8.png" />
-            <p className="legend">Cat 8</p>
-          </div>
-          <div>
-            <img src="assets/9.jpeg" />
-            <p className="legend">Bully 9</p>
-          </div>
-          <div>
-            <img src="assets/10.png" />
-            <p className="legend">Bully 10</p>
-          </div>
-          <div>
-            <img src="assets/11.jpeg" />
-            <p className="legend">Bully 11</p>
-          </div>
+          <img src="assets/1.jpeg" />
+          <img src="assets/2.png" />
+          <img src="assets/3.jpeg" />
+          <img src="assets/4.png" />
+          <img src="assets/5.png" />
+          <img src="assets/6.png" />
+          <img src="assets/7.png" />
+          <img src="assets/8.png" />
+          <img src="assets/9.jpeg" />
+          <img src="assets/10.png" />
+          <img src="assets/11.jpeg" />
         </Carousel>
       </Paragraph>
     </Pane>
